@@ -163,7 +163,7 @@ footer {
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 300px;
+  height: 400px;
   border-radius: 20px 20px 0px 0px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
