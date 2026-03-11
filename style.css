@@ -1,5 +1,5 @@
 
-body {background-color: #6f2dbd;
+body {background-image: url ("Waves for background.webp");
 line-height: 20px;}
 h1 {color: rgb(254, 226, 227);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} 
 h2 {color: rgb(241, 215, 255);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
@@ -7,7 +7,7 @@ header {
     background-color: #a663cc; text-align: left; padding: 33px; font-size: 50px; color: rgb(228, 211, 211);
 }
 h2 {
-    background-color: #b298dc; text-align: left; padding: 20px; font-size: 20px; 
+    text-align: left; padding: 20px; font-size: 20px; 
 }
 h1 {font-size: 30px;}
 nav {
