@@ -1,13 +1,13 @@
 
-body {background-image: url ("Waves for background.webp");
+body {background-image: url(https://img.freepik.com/premium-vector/boarder-celestial-1_654662-3618.jpg);
 line-height: 20px;}
-h1 {color: rgb(254, 226, 227);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} 
-h2 {color: rgb(241, 215, 255);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1 {color: #cfe4fc;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} 
+h2 {color: #EBF2FA ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 header {
-    background-color: #a663cc; text-align: left; padding: 33px; font-size: 50px; color: rgb(228, 211, 211);
+    background-color: #064789; text-align: left; padding: 33px; font-size: 50px; color: #EBF2FA;
 }
 h2 {
-    text-align: left; padding: 20px; font-size: 20px; 
+    text-align: center; padding: 5px; font-size: 20px; 
 }
 h1 {font-size: 30px;}
 nav {
@@ -15,16 +15,15 @@ nav {
         list-style-type: none;
         margin: 0px;
         padding: 0px;
-        background-color: #b9faf8;
-        border-bottom: 2px solid #b8d0eb;
+        background-color: #EBF2FA;
+        border-bottom: 2px solid #427AA1;
         border-bottom-width: 4px;
         gap: 20px;
-        border-top: 2px solid #b8d0eb;
+        border-top: 2px solid #427AA1;
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
         word-spacing: 9px;
         text-align: center;
-        color: rgb(243, 227, 227);
     }
 
     .button {
@@ -74,61 +73,6 @@ nav {
         color: white;
     }
     
-    .button4 {
-        background-color: white;
-        color:rgb(219, 147, 45);
-        border: 2px solid #f5bd81;
-        border-radius: 10px;
-    }
-    .button4:hover {
-        background-color: #f5bd81;
-        color: white;
-    }
-
-    .button5 {
-        background-color: white;
-        color:rgb(102, 190, 245);
-        border: 2px solid #4ddaed;
-        border-radius: 10px;
-    }
-    .button5:hover {
-        background-color: #4ddaed;
-        color: white;
-    }
-
-    .button6 {
-        background-color: white;
-        color:rgb(118, 236, 91);
-        border: 2px solid #8df086;
-        border-radius: 10px;
-    }
-    .button6:hover {
-        background-color: #8df086;
-        color: white;
-    }
-
-    .button7 {
-        background-color: white;
-        color:rgb(225, 231, 144);
-        border: 2px solid #f3ed39;
-        border-radius: 10px;
-    }
-    .button7:hover {
-        background-color: #f3ed39;
-        color: white;
-    }
-
-    .button8 {
-        background-color: white;
-        color:rgb(56, 53, 235);
-        border: 2px solid #3d53e2;
-        border-radius: 10px;
-    }
-    .button8:hover {
-        background-color: #3d53e2;
-        color: white;
-    }
-
 #menubar {
     float: left;
     width: 180px;
@@ -150,14 +94,14 @@ nav {
 }
 
 footer {
-    background-color: #a663cc;
+    background-color: #064789;
     padding: 25px;
     text-align: left;
     left: 0;
     bottom: 0;
     width: 96.1%;
     border-radius: 25px;
-    border: 3px solid #b571dc;
+    border: 3px solid #09549e;
 }
 
 .flip-card {
@@ -195,13 +139,13 @@ footer {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #9c7ad4;
+  background-color: #427AA1;
   color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgb(171, 122, 189);
+  background-color: #5d8cad;
   color: white;
   transform: rotateY(180deg);
 }
@@ -234,7 +178,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #b9faf8;
+  background-color: #EBF2FA;
 }
 
 ul li {
@@ -243,12 +187,12 @@ ul li {
 
 ul li a {
   display: block;
-  color: rgb(238, 0, 178);
+  color: #064789;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #8afffb;
+  background-color: #d7e8fa;
 }
