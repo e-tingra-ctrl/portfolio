@@ -42,11 +42,11 @@ nav {
     .button1 {
         background-color: #f8f7ff;
         color:rgb(231, 86, 103);
-        border: 2px solid #9381ff;
+        border: 2px solid #8dbaec;
         border-radius: 10px;
     }
     .button1:hover {
-        background-color: #b8b8ff;
+        background-color: #c4daf3;
         color: #f8f7ff;
     }
 
