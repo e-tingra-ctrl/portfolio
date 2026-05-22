@@ -1,0 +1,197 @@
+body {background-image: url(https://i.pinimg.com/736x/bf/5d/53/bf5d539abd183e6d501be82b738e8bb3.jpg);
+line-height: 20px;}
+h1 {color: #cfe4fc;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} 
+h2 {color: #EBF2FA ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+header {
+    background-color: #064789; text-align: left; padding: 33px; font-size: 50px; color: #EBF2FA;
+}
+h2 {
+    text-align: center; padding: 5px; font-size: 20px; 
+}
+h1 {font-size: 30px;}
+nav {
+        display: flex;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: #EBF2FA;
+        border-bottom: 2px solid #427AA1;
+        border-bottom-width: 4px;
+        gap: 20px;
+        border-top: 2px solid #427AA1;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        word-spacing: 9px;
+        text-align: center;
+    }
+
+    .button {
+        border: 1px; 
+        color: rgb(136, 214, 216);
+        padding: 7px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 7px 5px;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+
+    .button1 {
+        background-color: #f8f7ff;
+        color:rgb(231, 86, 103);
+        border: 2px solid #8dbaec;
+        border-radius: 10px;
+    }
+    .button1:hover {
+        background-color: #c4daf3;
+        color: #f8f7ff;
+    }
+
+
+    .button2 {
+        background-color: white;
+        color:rgb(5, 68, 9);
+        border: 2px solid #087410;
+        border-radius: 10px;
+    }
+    .button2:hover {
+        background-color: #087410;
+        color: white;
+    }
+
+    .button3 {
+        background-color: white;
+        color:rgb(188, 54, 228);
+        border: 2px solid #ed81fe;
+        border-radius: 10px;
+    }
+    .button3:hover {
+        background-color: #ed81fe;
+        color: white;
+    }
+    
+#menubar {
+    float: left;
+    width: 180px;
+}
+#sidebar{
+    background-color: blueviolet;
+    padding: 5px;
+    color: aquamarine;
+}
+.menuitem { 
+    padding: 10px;
+    border: 1px solid(rgb(75, 188, 145));
+    border-radius: 10px;
+    color: blue;
+    width: 70px;
+    list-style-type: none;
+    margin: 15px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #064789;
+    padding: 25px;
+    text-align: left;
+    left: 0;
+    bottom: 0;
+    width: 96.1%;
+    border-radius: 25px;
+    border: 3px solid #09549e;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px 20px 0px 0px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #427AA1;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #5d8cad;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-image{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin-top: 2px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  padding: 10px;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EBF2FA;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #064789;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #d7e8fa;
+}
