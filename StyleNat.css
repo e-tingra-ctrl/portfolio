@@ -18,23 +18,12 @@ header {
 /* Style the topnav */
 nav {
   display: flex;
-  align-items: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
   border-bottom: #84a067;
   border-bottom-width: 5px;
   gap: 30px;
-}
-
-.primary-nav{
-  
-  justify-content: space-between;
-}
-
-.primary-nav a{
-
-  display: flex;
 }
 
 
@@ -83,4 +72,15 @@ div.flex-container > div {
   margin: auto;
   text-align: center;
   align-self: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
 }
