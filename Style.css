@@ -1,13 +1,19 @@
 body {background-image: url(https://i.pinimg.com/736x/bf/5d/53/bf5d539abd183e6d501be82b738e8bb3.jpg);
 line-height: 20px;}
-h1 {color: #cfe4fc;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} 
-h2 {color: #EBF2FA ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1 {color: #cfe4fc;font-family: Monospace, 'Arial Narrow', Arial, sans-serif;} 
+h2 {color: #EBF2FA ;font-family: Monospace, 'Arial Narrow', Arial, sans-serif;}
 header {
     background-color: #064789; text-align: left; padding: 33px; font-size: 50px; color: #EBF2FA;
 }
 h2 {
     text-align: center; padding: 5px; font-size: 20px; 
 }
+p {
+  color: #cfe4fc;font-family: monospace, 'Arial Narrow', Arial, sans-serif; 
+  font-size: 23px; background-color: #6fa6e486; padding: 10px; 
+  border-radius: 10px; background-size: contain; line-height: 1.2;
+}
+
 h1 {font-size: 30px;}
 nav {
         display: flex;
