@@ -1,12 +1,12 @@
 body {background-image: url(https://i.pinimg.com/736x/bf/5d/53/bf5d539abd183e6d501be82b738e8bb3.jpg);
 line-height: 20px;}
-h1 {color: #EBF2FA;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} 
-h2 {color: #EBF2FA ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1 {color: #cfe4fc;font-family: Monospace, 'Arial Narrow', Arial, sans-serif;} 
+h2 {color: #EBF2FA ;font-family: Monospace, 'Arial Narrow', Arial, sans-serif;}
 header {
     background-color: #064789; text-align: left; padding: 33px; font-size: 50px; color: #EBF2FA;
 }
 h2 {
-    text-align: center; padding: 5px; font-size: 20px; 
+    text-align: left; padding: 5px; font-size: 25px; margin-left: 20px;
 }
 h1 {font-size: 30px;}
 nav {
